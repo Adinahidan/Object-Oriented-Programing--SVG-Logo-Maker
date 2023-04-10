@@ -1,0 +1,15 @@
+
+{
+  "name": "SVG-LOGO-MAKER",
+  "version": "1.0.0",
+  "description": "An application that generates an SVG logo based on the user's input",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Adina",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "8.2.4."
+  }
+}
