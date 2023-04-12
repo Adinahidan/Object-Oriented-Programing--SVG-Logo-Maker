@@ -3,7 +3,7 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 const {Circle, Square, Triangle} = require("./lib/shapes"); 
 
-//These lines define an Svg class that has a constructor with three methodes for rendering and setting the text ansd shape elements in the SVG string.
+//Define an Svg class that has a constructor with three methodes for rendering and setting the text ansd shape elements in the SVG string.
 class Svg {
     constructor() {
       this.textElement = "";
@@ -74,7 +74,7 @@ function generateLogo(answers, newLogo) {
 
 
 
-//This function will innitialize the app
+//This function will initialize the app
 function init() {
     inquirer
     .prompt (questions)
