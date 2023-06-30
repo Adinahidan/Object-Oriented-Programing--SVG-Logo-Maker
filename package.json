@@ -1,6 +1,6 @@
 
 {
-  "name": "SVG-LOGO-MAKER",
+  "name": "svg-logo-maker",
   "version": "1.0.0",
   "description": "An application that generates an SVG logo based on the user's input",
   "main": "index.js",
